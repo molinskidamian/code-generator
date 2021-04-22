@@ -1,13 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-
+:root {
+  --main-border: #525252;
+  --main-bg-color: #202124;
+  --main-color-font: #bcc4cd;
+  --bg-light-gray: #292a2d;
+  --bg-title: #000000;
+  --color-font-button: #a5a5a5;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   background-color: #202124;
   color: #bcc4cd;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-side, .right-side {
+  outline: 1px dashed var(--main-border);
+}
+
+h1 {
+  margin: 15px;
+  border-bottom: 1px solid var(--main-border);
+}
+/* .left-side, .right-side > h1 {
+  background-color: #fff;
+} */
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border: 1px solid var(--main-border);
+}
+
+form input[type=number]{
+  height: 20px;
+  width: 250px;
 }
 
 

@@ -11,9 +11,23 @@
 </head>
 <body>
 
-  <button>Wygeneruj 1000 kodów</button>
-
-  <div></div>
+  <div class="wrapper">
+    <div class="left-side">
+      <h1>Generate 1000 codes / Wygeneruj 1000 kodów</h1>
+      <button>Wygeneruj 1000 kodów</button>
+      <button class="reset">Wyzeruj</button>
+      <div class="output"></div>
+    </div>
+    <div class="right-side">
+      <h1>Generate a specific number of codes / Wygeneruj określoną liczbę kodów</h1>
+      <form action="">
+        <input type="number" placeholder="Ile kodów wygenerować">
+        <button class="btn-generate">Wygeneruj</button>
+        <button class="btn-reset">Wyzeruj</button>
+      </form>
+      <div class="content"></div>
+    </div>
+  </div>
 
   <script src="./main.js"></script>
 </body>
