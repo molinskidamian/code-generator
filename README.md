@@ -1,0 +1,4 @@
+# Generatr kodów
+
+
+# Code generator

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #202124;
+  color: #bcc4cd;
+}
+
+
+button {
+  margin: 20px;
+}
+
+.code {
+  margin: 5px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
+}
